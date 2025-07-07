@@ -5,11 +5,23 @@ body {
 /* Hero Section */
 
 #Hero-Section {
-  background-image: url("../img/bg-hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
 }
+.texto-superpuesto {
+      position: absolute;
+      top: 100%;
+      left: 60%;
+      transform: translate(-50%, -50%);
+      color: rgb(255, 255, 255);
+      font-size: 500%;
+      font-weight: bolder;
+      background-color: rgba(212, 18, 238, 0);
+      padding: 50px;
+      border-radius: 30px;
+}
+
 
 /* Mis trabajos */
 
