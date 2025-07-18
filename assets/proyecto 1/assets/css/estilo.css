@@ -1,0 +1,51 @@
+* {
+    background-color: rgb(255, 251, 235);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Flex", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.cb {
+    margin-top: 10%;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.cb{
+    margin-top: 5%;
+}
+
+.cont2 {
+    margin-top: 5%;
+}
+
+.cont3 {
+    margin-top: 5%;
+}
+
+.cont4 {
+    margin-top:5%;
+    justify-content: center;
+}
+
+
+td, th {
+  padding: 10px; 
+}
+
+.ff {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+
+}

@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway";
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    background: hsl(0, 0%, 0%);
+    width: 1280px;
+    height: 73px;
+    margin: 0 auto;
+    padding: 0px;
+    justify-content: space-around;
+    align-content: space-between;
+    align-items: flex-start;
+    gap: 0px;
+}
+
+.iguanagrande {
+    display: flex;
+    width: 1280px;
+    height: 727px;
+    padding: 0px;
+    background: black;
+    opacity: 1;
+    column-gap: 0px;
+    margin-bottom: 0%;
+
+}
+
+.titulo {
+    display: flex;
+    color: #FFFFFF;
+    top: 7px;
+    bottom: 7px;
+    width: 221px;
+    height: 59px;
+    font: 50px/50px Raleway;
+    letter-spacing: 0px;
+    opacity: 1;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    justify-content: center;
+}
+
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+    background: hsl(0, 0%, 0%);
+    position: relative;
+    width: 1280px;
+    height: 1044px;
+    margin: 0 auto;
+    top: 710px;
+    margin-top: 0%;
+    
+}
+
+.cajac1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: relative;
+    width: 1280px;
+    height: 348px;
+    right: 0px;
+    left: 0px;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 1;
+    justify-items: flex-start;
+}
+
+.cajatexto {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    flex-flow: column; 
+    margin: 0px auto;
+    padding: 0px;
+    position: relative;
+    right: 0%;
+    width: 475px;
+    height: 197px;
+    top: 76px;
+    bottom: 75px;
+    gap: 20px;
+    line-height: 19px;
+    text-align: left;
+    font: normal normal 300 16px/19px Raleway;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+}
+
+.cajaimagen {
+    background-color: rgb(0, 0, 0);
+    flex-direction: row;
+    margin:0px auto;
+    position: relative;
+    left: 0%;
+    top: 45px;
+
+}
+
+.cajac2 {
+    display:flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 1280px;
+    height: 348px;
+    left: 0px;
+    right: 0px;
+    background: #1E1A13 0% 0% no-repeat padding-box;
+    opacity: 0.98;
+    justify-items: flex-start;
+
+}
+
+.caracteristicas {
+    width: 100%;
+    text-align: center;
+    margin-top: 75px;
+}
+
+.caracteristicas .tut {
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
+    line-height: 47px;
+    color: white;   
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+
+}
+
+.iconos {
+    display: flex;
+    padding: 0px 326px;
+    gap: 100px;
+    bottom: 100px;
+
+}
+
+.icono {
+    display: flex;
+    flex-direction: column;
+    align-items: center;     
+    text-align: center;
+}
+
+.icono i {
+    display: flex;
+    color: white;
+    font-size: 50px; 
+    justify-content: center;
+    margin-bottom: 16px;
+    
+}
+
+.icono p {
+    margin: 0;
+    text-align: center;
+    font: normal normal 300 25px/30px Raleway;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+
+}
+
+.cajac3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: relative;
+    width: 1280px;
+    height: 348px;
+    padding: 73px 150px;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 1;
+    justify-items: flex-start;
+}
+
+.imagenesfinales {
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+
+.imagenesfinales img {
+  width: 100%;
+  max-width: 316px; 
+  height: 202px;
+  border-radius: 8px;
+}
+
+.cajac11 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    width: 1280px;
+    height: 102px;
+    top: 710px;
+    margin: 0 auto;
+    padding: 0px;
+    justify-content: space-around;
+    align-content: space-between;
+    align-items: flex-start;
+    background: #1E1A13 0% 0% no-repeat padding-box;
+    opacity: 0.94;
+}
+
+.cajac11 p {
+    display: flex;
+    margin-top: 39px;
+    margin-bottom: 39px;
+    left: 299px;
+    width: 682px;
+    height: 24px;
+    text-align: center;
+    font: normal normal 300 20px/24px Raleway;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
